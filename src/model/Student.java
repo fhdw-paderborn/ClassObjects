@@ -1,11 +1,16 @@
 package model;
 
+/**
+ * This class stores information about a student
+ */
 public class Student {
 
+    private long id;
     private int age;
     private String name;
 
     public Student(int age, String name) {
+        this.id = Math.round(Math.random() * 1000);
         this.age = age;
         this.name = name;
     }
@@ -19,6 +24,6 @@ public class Student {
     }
 
     public void info() {
-        System.out.printf("Student: %s (Alter: %d)\n", name, age);
+        System.out.printf("Student: %s (ID: %d, Alter: %d)\n", name, id, age);
     }
 }
