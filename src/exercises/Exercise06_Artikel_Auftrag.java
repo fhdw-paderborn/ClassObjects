@@ -1,3 +1,4 @@
+package exercises;
 /**
  * Entwickle ein System zur Verwaltung von Artikeln und Aufträgen:
  * 
