@@ -1,0 +1,22 @@
+@startuml Class_Examples
+
+
+
+class Student {
+- age: int
+- name: String
++ Student(int alter, String name): void
++ setAge(int age): void
++ setName(String name): void
+}
+
+class Account {
+- iban: String
+- saldo: double
++ Konto(iban: String, saldo: double)
++ getIban(): String
++ getSaldo(): double
++ deposit(double): void
++ payOut(double): void
++ info(): void
+}
