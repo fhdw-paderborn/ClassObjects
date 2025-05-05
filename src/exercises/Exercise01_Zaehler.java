@@ -13,5 +13,5 @@ package exercises;
  * - Eine Methode zuruecksetzen(), die den Zählerwert auf 0 zurücksetzt
  * - Eine Methode getWert(), die den aktuellen Zählerwert zurückgibt
  * 
- * Implementiere diese Klasse in einer neuen Datei namens "Zaehler.java".
+ * Implementiere diese Klasse in einer neuen Datei namens "Zaehler.java" im Ordner solutions.
  */

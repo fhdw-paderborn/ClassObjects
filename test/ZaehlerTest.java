@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import exercises.Zaehler;
+import solutions.Zaehler;
 
 import static org.junit.jupiter.api.Assertions.*;
 
