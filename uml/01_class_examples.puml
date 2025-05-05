@@ -3,20 +3,22 @@
 
 
 class Student {
-- age: int
-- name: String
-+ Student(int alter, String name): void
-+ setAge(int age): void
-+ setName(String name): void
+    - id: long
+    - age: int
+    - name: String
+    + Student(int alter, String name): void
+    + setAge(int age): void
+    + setName(String name): void
+    + info(): void
 }
 
 class Account {
-- iban: String
-- saldo: double
-+ Konto(iban: String, saldo: double)
-+ getIban(): String
-+ getSaldo(): double
-+ deposit(double): void
-+ payOut(double): void
-+ info(): void
+    - iban: String
+    - saldo: double
+    + Konto(iban: String, saldo: double)
+    + getIban(): String
+    + getSaldo(): double
+    + deposit(double): void
+    + payOut(double): void
+    + info(): void
 }
