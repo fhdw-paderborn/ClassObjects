@@ -116,3 +116,35 @@ class Student {
      - `o--` aggregation
 
 For more details, visit the [PlantUML website](https://plantuml.com/).
+
+## Code Formatting in VS Code
+
+Visual Studio Code offers powerful code formatting capabilities to keep your Java code clean and consistent.
+
+### Setting Up Java Formatter
+
+1. **Install Java Extension Pack**:
+   - Open VS Code
+   - Go to Extensions (Ctrl+Shift+X or Cmd+Shift+X on macOS)
+   - Search for "Java Extension Pack" and install it
+
+2. **Configure Formatter Settings**:
+   - Open Settings (Ctrl+, or Cmd+, on macOS)
+   - Search for "java format"
+   - Customize settings like tab size, indentation, and line wrapping
+
+3. **Format Options**:
+   - Format current file: Right-click and select "Format Document" or use Shift+Alt+F (Windows/Linux) or Shift+Option+F (macOS)
+   - Format selection: Select code, right-click and choose "Format Selection" or use Ctrl+K Ctrl+F (Windows/Linux) or Cmd+K Cmd+F (macOS)
+   - Format on save: Enable "Editor: Format On Save" in Settings
+
+4. **Configure Java-specific formatting rules**:
+   - Create a formatter profile XML file:
+     - Export from Eclipse or download a template
+     - In VS Code settings, set "java.format.settings.url" to the path of your XML file
+
+5. **Keyboard Shortcuts for Formatting**:
+   - Format document: Shift+Alt+F (Windows/Linux) or Shift+Option+F (macOS)
+   - Format selection: Ctrl+K Ctrl+F (Windows/Linux) or Cmd+K Cmd+F (macOS)
+
+Consistent formatting helps maintain code readability and makes collaboration easier across development teams.
