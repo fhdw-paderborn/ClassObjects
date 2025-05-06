@@ -2,21 +2,21 @@ package solutions;
 
 public class Sparbuch {
     
-    private int kontonummer;
+    private String kontonummer;
     private double kapital;
-    private float zinssatz;
+    private double zinssatz;
 
-    public Sparbuch(int kontonummer, double startkapital, float zinssatz) {
+    public Sparbuch(String kontonummer, double startkapital, double zinssatz) {
         this.kontonummer = kontonummer;
         this.kapital = startkapital;
         this.zinssatz = zinssatz;
     }
 
-    public void zahleEin(int add) {
+    public void zahleEin(double add) {
         this.kapital += add;
     }
 
-    public void hebeAb(int withdraw) {
+    public void hebeAb(double withdraw) {
         if(kapital - withdraw < 0) {
             System.out.println("Not enough money in account");
         } else {
@@ -33,7 +33,7 @@ public class Sparbuch {
         kapital += kapital * (zinssatz / 100);
     }
 
-    public int getKontonummer() {
+    public String getKontonummer() {
         return kontonummer;
     }
 
@@ -41,7 +41,7 @@ public class Sparbuch {
         return kapital;
     }
 
-    public float getZinssatz() {
+    public double getZinssatz() {
         return zinssatz;
     }
 

@@ -41,4 +41,8 @@ public class Stack {
             return false;
         }
     }
+
+    public int size() {
+        return indexTopElem + 1;
+    }
 }

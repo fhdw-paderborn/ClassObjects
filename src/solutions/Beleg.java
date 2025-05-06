@@ -13,12 +13,10 @@ public class Beleg {
     }
 
     public static int getNaechsteBelegnummer() {
-        return numberCounter + 1;
+        return numberCounter;
     }
 
     public static int getAnzahlBelege() {
         return numberCounter - 10_000;
     }
-
-
 }
